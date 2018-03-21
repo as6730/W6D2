@@ -1,0 +1,48 @@
+/* PHASE 9: Forms */
+.content-main {
+  display: flex;
+  justify-content: space-between;
+
+}
+.post-thumb img {
+  display: block;
+  position: relative;
+  width: 58px;
+  height: 58px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  float: left;
+}
+
+.post {
+  float: left;
+  padding: 19px;
+  width: 500px;
+  background: #eee;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  height: 200px;
+}
+
+.input {
+  background-color: white;
+  border: 1px solid black;
+}
+
+input[type="submit"] {
+    position: relative;
+    padding: 10px 20px;
+    color: #fff;
+    background: #0c0;
+    font-weight: 700;
+    border-radius: 5px;
+    box-shadow: 0 3px 0 0 #070;
+  }
+
+  .button-cancel {
+    background-color: red;
+    box-shadow: 0 0 3 0px #330000;
+    font-weight: bold;
+    padding: 5px;
+
+  }
